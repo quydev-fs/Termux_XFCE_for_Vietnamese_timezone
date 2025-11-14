@@ -836,7 +836,7 @@ eval "$(starship init bash)"
 " >> $PREFIX/var/lib/proot-distro/installed-rootfs/debian/home/$username/.bashrc
 
 # Set proot timezone
-timezone=$(getprop persist.sys.timezone)
+timezone="Asia/Ho_Chi_Minh"
 pd login debian --shared-tmp -- env DISPLAY=:0 rm /etc/localtime
 pd login debian --shared-tmp -- env DISPLAY=:0 cp /usr/share/zoneinfo/$timezone /etc/localtime
 
