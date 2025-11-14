@@ -1,3 +1,4 @@
+# This is a fork that hardcode the timezone to "Asia/Ho_Chi_Minh" for Vietnamese users, while also fixed the mesa-vulkan driver issue happened in newest version of debian PRoot (Debian 13 Trixie)
 # Termux XFCE Desktop Setup
 
 This repository provides a script to set up an XFCE desktop environment and a Debian proot installation within Termux. The setup utilizes the Termux-X11 server, which will be installed during the process. You will be prompted to allow Termux to install the corresponding Android APK.
